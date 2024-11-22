@@ -14,7 +14,7 @@ deposit.addEventListener("click" , function()
     total += Number(depo_value);
 
     depo.innerHTML = `${tdepo}`;
-    total_bal.innerHTML = `${tdepo}`;
+    total_bal.innerHTML = `${total}`;
 
     document.getElementById("deposit-field").value = "";
 })
